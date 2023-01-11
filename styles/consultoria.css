@@ -1,0 +1,34 @@
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --laranja: #FE5A01;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/c.png);
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: var(--branco);
+}
+
+.consultoria__titulo {
+    color: #FE5A01;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 1em auto;
+    width: 50%;
+}
+
+.consultoria__texto {
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 2em 3em;
+    text-align: left;
+}
